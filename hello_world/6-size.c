@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main(void)
-{
 /**
- * main - Entry point
- *
+ * main - this a the main function
+ * description - the starting point of the program
  * Return: Always 0 (Success)
  */
+int main(void)
+{
 	char charType;
 	int intType;
 	long int longintType;
