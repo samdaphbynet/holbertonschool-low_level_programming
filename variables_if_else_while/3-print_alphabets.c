@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry pont
- * Description: 'program that prints the alphabet in lowercase, and then in uppercase'
+ * main - Entry point
+ * Description: 'the program's description'
  * Return: Always 0 (Success)
- * */
+ */
 
 int main(void)
 {
 	char i;
-		for (i = 'a';i <= 'z'; ++i)
+		for (i = 'a'; i <= 'z'; ++i)
 		{
 			putchar (i);
 		}
