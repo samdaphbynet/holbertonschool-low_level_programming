@@ -1,15 +1,15 @@
 #include "main.h"
 
- /**
- * print_alphabet: (-  that prints the alphabet, in lowercase)?
- * @parameterx: description of parameter void
- * Description: function that prints the alphabet, in lowercase
- * section header: main.h
- */
+/**
+* print_alphabet: (-  that prints the alphabet, in lowercase)?
+* @parameterx: description of parameter void
+* Description: function that prints the alphabet, in lowercase
+* section header: main.h
+*/
 
 /**
-#  * print_alphabet
-#  */
+* print_alphabet
+*/
 
 void print_alphabet(void)
 {
