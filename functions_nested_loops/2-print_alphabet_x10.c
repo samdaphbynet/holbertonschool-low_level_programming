@@ -7,16 +7,17 @@
 * section header: main.h
 */
 
+/**
+ * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ */
 void print_alphabet_x10(void)
 {
 	int i;
-		for (i = 'a'; i <= 'z'; ++i)
+	int x10 = 0;
+		while (x10++ <= 10)
 		{
-			while (i <= 10)
-			{
-			_putchar(i);
-			i++;
-			}	
+			for (i = 'a'; i <= 'z'; ++i)
+				_putchar(i);
+			_putchar('\n');
 		}
-		_putchar('\n');
 }
