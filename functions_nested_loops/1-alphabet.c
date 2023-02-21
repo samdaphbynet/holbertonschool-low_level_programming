@@ -1,11 +1,10 @@
 #include "main.h"
 
-/**
- * main - Entry point
- * 
- * Description: 'the program's description'
- * 
- * Return: Always 0 (Success)
+ /**
+ * print_alphabet: (-  that prints the alphabet, in lowercase)?
+ * @parameterx: description of parameter void
+ * Description: function that prints the alphabet, in lowercase, followed by a new line
+ * section header: main.h
  */
 
 void print_alphabet(void)
