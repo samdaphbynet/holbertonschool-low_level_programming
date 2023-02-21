@@ -8,7 +8,7 @@
 */
 
 /**
-* print_alphabet
+* print_alphabet() - for prints the alphabet
 */
 
 void print_alphabet(void)
