@@ -1,14 +1,9 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10: (-  that prints the alphabet x10 in lowercase)?
-* @parameterx: description of parameter void
-* Description: function that prints the alphabet x10
-* section header: main.h
-*/
-
-/**
- * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
+ *
+ * Return: x10 alphabet
  */
 void print_alphabet_x10(void)
 {
