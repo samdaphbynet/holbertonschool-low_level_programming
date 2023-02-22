@@ -16,11 +16,10 @@ void times_table(void)
 			{
 				multi = (haut * larg);
 
-				if ((multi / 10 ) > 0)
+				if ((multi / 10) > 0)
 				{
 					_putchar((multi / 10) + '0');
-				}
-				
+				}				
 				else if (larg > 0)
 				{
 					_putchar(' ');
