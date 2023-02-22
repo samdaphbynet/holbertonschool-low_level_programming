@@ -2,7 +2,7 @@
 
 /**
  * add - function that adds two integers and returns the result.
- * @n1, n2: n1 = number-1, n2 = number-2 input
+ * n1 = number-1, n2 = number-2 input
  * Return: result of adds two integers.
  */
 
