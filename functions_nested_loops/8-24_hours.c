@@ -2,8 +2,8 @@
 
 /**
  * jack_bauer -  that prints every minute of the day of Jack Bauer.
- * @n:  sign of a number input
- * Return: Returns 1 or 0 or -1 if n>0 or n==0 or n<0
+ * hour = hour, min = minute
+ * Return:  every minute of the day, starting from 00:00 to 23:59.
  */
 
 void jack_bauer(void)
