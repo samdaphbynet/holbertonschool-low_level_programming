@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign -  function that prints the sign of a number.
- * @n:  sign of a number input
- * Return: Returns 1 or 0 or -1 if n>0 or n==0 or n<0
+ * times_table -  function that prints the 9 times table, starting with 0.
+ * @: haut = height, larg = width, multi = multiplication.
+ * Return: multiplication of 9 times table.
  */
 
 void times_table(void)
@@ -15,6 +15,7 @@ void times_table(void)
 			for (larg = 0; larg <= 9; ++larg)
 			{
 				multi = (haut * larg);
+
 				if ((multi / 10 ) > 0)
 				{
 					_putchar((multi / 10) + '0');
