@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower -  function that checks for lowercase character.
- * @c: single letter input
+ * print_last_digit -  function that checks for lowercase character.
+ * @r: last digit input
  * Return: Returns 1 if c is lowercase or Returns 0 otherwise
  */
 
