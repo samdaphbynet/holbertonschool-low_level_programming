@@ -19,7 +19,7 @@ void times_table(void)
 				if ((multi / 10) > 0)
 				{
 					_putchar((multi / 10) + '0');
-				}				
+				}
 				else if (larg > 0)
 				{
 					_putchar(' ');
