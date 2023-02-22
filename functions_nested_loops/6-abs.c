@@ -6,12 +6,12 @@
  * Return: value of an integer.
  */
 
-int _abs(int r)
+int _abs(int c)
 {
-		if (r >= 0)
+		if (c >= 0 && c <= 0)
 		{
-			_putchar(r);
+			_putchar(c);
 			_putchar('\n');
 		}
-		return (r);
+		return (c);
 }
