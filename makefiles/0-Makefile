@@ -1,7 +1,7 @@
 all : school
 
-school : school.o m.o main.o
-        gcc -o school school.o m.o main.o
+school : school.o main.o
+        gcc -o school school.o main.o
 
 school.o : school.c
         gcc -o school.o -c school.c
