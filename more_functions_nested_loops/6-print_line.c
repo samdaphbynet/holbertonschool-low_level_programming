@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * print_line - function that draws a straight line in the terminal.
- * @n: the number of input.
- * Return: 0
+ * @n: the int for the paramater of my function.
+ * Return: 0.
  */
 
 void print_line(int n)
@@ -13,8 +14,9 @@ void print_line(int n)
 	{
 		for (i = 1; i <= n; i++)
 		{
-			_putchar('_');
+			_putchar(' ');
 		}
+		_putchar(92);
 	}
 
 	else if (n == 0)
