@@ -2,26 +2,26 @@
 
 /**
  * more_numbers -  function that print 10 times th numbers from 0 to 14.
- * haut = height and larg = width.
+ * i = height and n = width.
  * Return: 0.
  */
 
 void more_numbers(void)
 {
-	int haut = 0;
-	int larg = 0;
+	int i = 0;
+	int n = 0;
 
-	while (haut < 10)
+	while (i < 10)
 	{
-		while (larg <= 14)
+		while (n <= 14)
 		{
-			if (larg > 9)
-				_putchar((larg / 10) + '0');
-			_putchar((larg % 10) + '0');
-			larg++;
+			if (n > 9)
+				_putchar((n / 10) + '0');
+			_putchar((n % 10) + '0');
+			n++;
 		}
+		i++;
+		n = 0;
 		_putchar('\n');
-		haut = 0;
-		haut++;
 	}
 }
