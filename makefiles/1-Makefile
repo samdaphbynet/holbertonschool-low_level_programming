@@ -1,6 +1,6 @@
 CC = gcc
 EXEC = school
-SRC = $(willcard *.c)
+SRC = main.c school.c
 
 all : $(EXEC)
 
