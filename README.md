@@ -31,3 +31,12 @@
 - What are explicit and implicit rules
 - What are the most common / useful rules
 - What are variables and how to set and use them
+# C - More functions, more nested
+- [](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/more_functions_nested_loops) - More functions, more nested<br/>
+- What are nested loops and how to use them
+- What is a function and how do you use functions
+- What is the difference between a declaration and a definition of a function
+- What is a prototype
+- Scope of variables
+- What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
+- What are header files and how to to use them with #include
