@@ -23,3 +23,11 @@
 - What is the official C coding style and how to check your code with betty-style
 - How to find the right header to include in your source code when using a standard library function
 - How does the main function influence the return value of the program.
+# Makefile
+- [Makfile](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/makefiles) - Makefile <br/>
+- What are make, Makefiles
+- When, why and how to use Makefiles
+- What are rules and how to set and use them
+- What are explicit and implicit rules
+- What are the most common / useful rules
+- What are variables and how to set and use them
