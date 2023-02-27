@@ -8,5 +8,6 @@
 
 void _puts(char *str)
 {
+	_putchar('\n');
 	fputs(str, stdout);
 }
