@@ -15,4 +15,5 @@ void print_rev(char *s)
 	{
 		printf("%c", s[g]);
 	}
+	printf("\n");
 }
