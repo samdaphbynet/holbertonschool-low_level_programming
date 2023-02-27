@@ -15,7 +15,4 @@ void print_rev(char *s)
 	{
 		printf("%c", s[g]);
 	}
-
-	if (leng >= '\0')
-		_putchar(10);
 }
