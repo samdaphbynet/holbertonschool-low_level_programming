@@ -21,10 +21,9 @@ char *cap_string(char *str)
 
 		if (str[i] == ' ' || str[i] == '\n' || str[i] == '\t' || str[i] == '.')
 		{
-			i++;
-			if (str[i] >= 'a' && str[i] <= 'z')
+			if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 			{
-				str[i] = str[i] - 32;
+				str[i + 1] = str[i + 1] - 32;
 			continue;
 			}
 		}
