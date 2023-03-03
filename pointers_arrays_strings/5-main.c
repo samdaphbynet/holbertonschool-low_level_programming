@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-    char str[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
-    char *ptr;
+    char *s = "hello, world";
+    char *f = "world";
+    char *t;
 
-    ptr = cap_string(str);
-    printf("%s", ptr);
-    printf("%s", str);
+    t = _strstr(s, f);
+    printf("%s\n", t);
     return (0);
 }
