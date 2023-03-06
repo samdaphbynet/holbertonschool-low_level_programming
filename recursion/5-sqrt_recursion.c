@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt2 - calculate natural square root of a number.
+ * _sqrtNatural - calculate natural square root of a number.
  * @n: the number input.
  * @i: the counter of natural square.
  * Return: the natural square root of a number.
