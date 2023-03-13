@@ -12,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 	int len1 = strlen(s1);
 	int len2 = strlen(s2);
 	int size = len1 + len2;
-	int i;
+	int i, j;
 	char *str;
 
 	if (s1 == NULL)
@@ -32,9 +32,9 @@ char *str_concat(char *s1, char *s2)
 		str[i] = s1[i];
 	}
 
-	for (i = 0; i < len2; i++)
+	for (j = 0; j < len2; j++)
 	{
-		str[len1 + i] = s2[i];
+		str[i + j] = s2[j];
 	}
 
 	return (str);
