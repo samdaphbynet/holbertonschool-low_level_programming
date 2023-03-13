@@ -12,6 +12,10 @@ char *str_concat(char *s1, char *s2)
 	int str1, str2 = 0;
 	char *res;
 
+	if (s1 == NULL && s2 == NULL)
+	{
+		return ("");
+	}
 	if (s1 == NULL)
 	{
 		return (s2);
