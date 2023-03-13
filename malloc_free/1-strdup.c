@@ -21,6 +21,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
+	else if (c == 0)
+	{
+		return (NULL);
+	}
+
 	else
 	{
 		for (i = 0; str[i] != '\0'; i++)
