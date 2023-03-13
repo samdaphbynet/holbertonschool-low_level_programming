@@ -17,6 +17,11 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
+	else if (tab == 0)
+	{
+		return (0);
+	}
+
 	else
 	{
 		for (i = 0; i < size; i++)
