@@ -58,30 +58,37 @@
 - What is the ASCII character set
 - What are the purpose of the gcc flags -m32 and -m64
 # C - Even more pointers, arrays and strings
+- [Even more pointers, arrays and strings](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings)<br/>
 - What are pointers to pointers and how to use them
 - What are multidimensional arrays and how to use them
 - What are the most common C standard library functions to manipulate strings
 # C - Recursion
+- [Recursion](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/recursion)<br/>
 - What is recursion
 - How to implement recursion
 - In what situations you should implement recursion
 - In what situations you shouldn’t implement recursion
 # C - Static libraries
+- [Static libraries](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/static_libraries)<br/>
 - What is a static library, how does it work, how to create one, and how to use it
 - Basic usage of ar, ranlib, nm
 # C - argc, argv
+- [argc, argv](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/argc_argv)<br/>
 - How to use arguments passed to your program
 - What are two prototypes of main that you know of, and in which case do you use one or the other
 - How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
 # C - malloc, free
+- [malloc, free](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/malloc_free)<br/>
 - What is the difference between automatic and dynamic allocation
 - What is malloc and free and how to use them
 - Why and when use malloc
 - How to use valgrind to check for memory leak
 # C - more malloc, free
+- [ more malloc, free](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/more_malloc_free)<br/>
 - How to use the exit function
 - What are the functions calloc and realloc from the standard library and how to use them
 # C - Preprocessor
+- [Preprocessor](https://github.com/samdaphbynet/holbertonschool-low_level_programming/tree/master/preprocessor)<br/>
 - What are macros and how to use them
 - What are the most common predefined macros
 - How to include guard your header files
