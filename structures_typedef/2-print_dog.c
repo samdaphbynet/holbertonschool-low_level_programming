@@ -1,13 +1,15 @@
 #include "dog.h"
 
 /**
- *
- *
- *
+ * print_dog -  function that prints a struct dog
+ * @d: the struct to prints
  */
 
 void print_dog(struct dog *d)
 {
+
+	if (d == NULL)
+		return;
 
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
