@@ -8,11 +8,12 @@
 
 int len(char *string)
 {
-	int i;
-	 for (i = 0; *string != '\0'; string++)
+	int i = 0;
+
+	for (; *string != '\0'; string++)
 		 i++;
 
-	 return (i);
+	return (i);
 }
 
 /**
