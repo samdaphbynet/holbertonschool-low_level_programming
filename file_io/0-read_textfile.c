@@ -13,7 +13,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t read, new;
 	FILE *ptr;
 
-	if (filename == NULL)
+	if (!filename)
 		return (0);
 
 	buf = malloc(sizeof(char) * (letters + 1));
@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	read = fread(buf, sizeof(char), letters, ptr);
 	new = write(STDOUT_FILENO, buf, read);
 
-	if (buf == NULL || ptr == NULL || read == -1 || new != read)
+	if (buf == -1 || ptr == -1 || read == -1 || new != read)
 	{
 		fclose(ptr);
 		free(buf);
