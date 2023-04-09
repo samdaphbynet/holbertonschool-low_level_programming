@@ -17,17 +17,33 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	buf = malloc(sizeof(char) * (letters + 1));
-	ptr = fopen(filename, "r");
-	read = fread(buf, sizeof(char), letters, ptr);
-	new = write(STDOUT_FILENO, buf, read);
 
-	if (buf == -1 || ptr == -1 || read == -1 || new != read)
+	if (buf == NULL)
+	{
+		return (0);
+	}
+	ptr = fopen(filename, "r");
+
+	if (ptr == NULL)
+		return (0);
+
+	read = fread(buf, sizeof(char), letters, ptr);
+
+	if (read == -1)
 	{
 		fclose(ptr);
 		free(buf);
 		return (0);
 	}
 	buf[read] = '\0';
+	new = write(STDOUT_FILENO, buf, read);
+
+	if (new != read)
+	{
+		fclose(ptr);
+		free(buf);
+		return (0);
+	}
 	fclose(ptr);
 	free(buf);
 	return (new);
