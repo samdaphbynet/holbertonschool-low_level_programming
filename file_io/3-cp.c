@@ -16,6 +16,7 @@
 void error_exit(const char *a, int b)
 {
 	const char *op;
+
 	op = (b == 98) ? "read from" : "write to";
 	dprintf(STDERR_FILENO, "Error: can't %s %s\n", op, a);
 	exit(b);
