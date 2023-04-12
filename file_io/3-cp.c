@@ -3,22 +3,28 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <string.h>
 
 #define BUF_SIZE 1024
 
 /**
- *
+ * error_exit - which prints an error message and exits with a code of 98
+ * @a: name of file to print
+ * @b: code exit
  */
 
-void error_exit(const char * file_name, int err_code)
+void error_exit(const char *a, int b)
 {
-	dprintf(STDERR_FILENO, "Error: can't %s %s\n", err_code == 98 ? "read from file" : "write to", file_name);
-	exit(err_code);
+	char *s = "read from file";
+	char *ss = "Error: can't";
+
+	dprintf(STDERR_FILENO, "%s %s %s %s\n", s, b == 98 ? s : "write to", a);
+	exit(b);
 }
 
 /**
- *
- *
+ * close_exit - which prints an error message and exits with a code of 100
+ * @fd: name of file to print
  */
 
 void close_exit(int fd)
@@ -32,8 +38,10 @@ void close_exit(int fd)
 }
 
 /**
- *
- *
+ * main - program that copies the content of a file to another file.
+ * @argc: gives the number of command line items.
+ * @argv: contains the name of the command
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
