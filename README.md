@@ -1,1 +1,1 @@
-C - Hash table
+C - Holberton-low-level_programming
